@@ -7,9 +7,14 @@ or
 npm i && npm start
 ```
 
-Then point your browser to locahost:3000.
+Then point your browser to locahost:3000:
+
 
 The app should automatically load the popular movies, then type in the search bar for "real-time search as you type" results.
+
+Should look like this onload:
+https://www.dropbox.com/s/primo3vpactvzjb/cur.png
+
 
 #### Architecture
 
@@ -38,3 +43,4 @@ The second way sounds a bit expensive but if contsrained by the API it's doable.
 Definitely would construct the pagnation in a way that makes sense for the end-user experience and the api as far as "knowing ahead of time" whether there's more info to request for the user (do so via the ways I listed above).
 
 That's the main one with the side effects- aside from that I'd improve the UI.
+
