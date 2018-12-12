@@ -6,7 +6,6 @@ import {
 } from '../constants';
 
 export const getMoviesByTerm = (term, page) => {
-  console.log('page', page)
   let url = `${TMDB_MOVIE_REQ_BASE_PATH}&query=${term}&page=${page}`;
   return axios.get(url)
     .then(res => onGetMoviesSuccess(res, term, page))

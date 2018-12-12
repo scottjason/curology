@@ -23,7 +23,9 @@ The app is built with the presentational / container pattern such that certain c
 
 #### Challenges
 
-1) The main challenge was pagnation- I didn't leave as much time as I probably should have for that so what's implemented is a "Next" option- what this does is simply fetch the next page of results for the search term only it doesn't account for whether or not there even is a next page- so what would have been better is to figure this out ahead of time by either:
+The main overall challenge was handling the base cases plus the edge cases in the time alloted- for example the UI is justify-content space b/w which doesnt work when there's only one row or if the last row has less than the full amount of items to fill it.
+
+1) Pagnation- I didn't leave as much time as I probably should have for that so what's implemented is a "Next" option- what this does is simply fetch the next page of results for the search term only it doesn't account for whether or not there even is a next page- so what would have been better is to figure this out ahead of time by either:
 
 - a) Use the API to get an idea for the total number of pages for a term (didn't see anything direct perhaps could get creative)
 

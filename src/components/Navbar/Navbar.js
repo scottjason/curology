@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Next } from './Navbar.styles';
+import { Container } from './Navbar.styles';
 import SearchBarContainer from '../../containers/SearchBarContainer';
 
 const Navbar = () => (
