@@ -1,17 +1,17 @@
 To install
 
 ```
-`git clone git@github.com:scottjason/curology.git`
-`yarn && yarn start`
+git clone git@github.com:scottjason/curology.git
+yarn && yarn start
 or
-`npm i && npm start`
+npm i && npm start
 ```
 
 Then point your browser to locahost:3000.
 
 The app should automatically load the popular movies, then type in the search bar for "real-time search as you type" results.
 
-#### Archtiecture
+#### Architecture
 
 The app is built with the presentational / container pattern such that certain components are responsible for only how something looks whereas a container acts a parent for its stateless children- it modifies redux state and binds to the appropriate values in redux needed by these children for rendering.
 
